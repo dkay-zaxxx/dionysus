@@ -27,6 +27,7 @@ Rather than applying a configuration individually, and wasting precious time :) 
 Make sure that the RouterOS API service is enabled, you can enable by pasting in the following command:
 
 RouterOSv6 - `/ip service enable api`
+
 RouterOSv7 - `/ip/service/enable api`
 
 Also your router needs to be able to route directly to the webserver, to download the configuration file.
